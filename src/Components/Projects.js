@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 //create separate component for project details
@@ -14,6 +15,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div>
+        <ThemeProvider>
         <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
@@ -25,6 +27,7 @@ export default class Projects extends React.Component {
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
+</ThemeProvider>
       </div>
     )
   }
