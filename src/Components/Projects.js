@@ -1,4 +1,7 @@
 import React from 'react'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 //create separate component for project details
 //include blurb, and technologies used
@@ -6,29 +9,22 @@ import React from 'react'
 export default class Projects extends React.Component {
   constructor() {
     super()
-    this.state = {
-      graceShopper: false,
-      capstone: false
-    }
   }
 
   render() {
     return (
       <div>
-      <p style = {{cursor:'pointer'}} onClick = {() =>this.setState({graceShopper:true})}>
-        Made Tiny
-        {this.state.graceShopper?
-        <div><p>true</p></div>  :
-        <div></div>
-      }
-      </p>
-      <p style = {{cursor:'pointer'}} onClick = {() =>this.setState({capstone:true})}>
-        [Hop Hop Array]
-        {this.state.capstone?
-        <div><p>true</p></div>  :
-        <div></div>
-      }
-      </p>
+        <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
       </div>
     )
   }

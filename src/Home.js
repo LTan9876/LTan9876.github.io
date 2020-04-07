@@ -10,7 +10,7 @@ export default class Home extends React.Component {
       <div class = "typed">
         <Typed
         strings = {[
-          "Hi, I'm Lily! Welcome to my site!"
+          "Hi, I'm Lily! Welcome!"
         ]}
         typeSpeed = {40}
         backSpeed = {50}
