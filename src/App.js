@@ -8,7 +8,7 @@ import Home from './Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Cv from './Components/Cv'
-import Contact from './Components/Contact'
+import ContactForm from './Components/ContactForm.js'
 
 class App extends Component {
   render() {
@@ -39,7 +39,7 @@ class App extends Component {
         />
         <Section
           title="Contact"
-          subtitle={<Contact/>}
+          subtitle={<ContactForm/>}
           dark={false}
           id="section5"
         />

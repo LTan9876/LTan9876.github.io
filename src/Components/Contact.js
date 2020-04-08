@@ -1,8 +1,8 @@
 import React, { Component} from "react";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+// import ContactForm from './ContactForm'
 
 export default class Contact extends Component {
-
   render() {
     return (
       <div>
@@ -14,7 +14,7 @@ export default class Contact extends Component {
        <a href = "https://www.linkedin.com/in/tlily/"> <FaLinkedin /> </a>
        </span>
       </h1>
-
+      {/* <ContactForm/> */}
       </div>
     )
   }
