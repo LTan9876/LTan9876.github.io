@@ -17,7 +17,7 @@ export default class Projects extends React.Component {
       <div class = 'cardHolder'>
       <div class = 'card'>
         <h1>[Hop Hop] Array</h1>
-        <p>An approachable platform where users can practice completing algorithms in Javascript.</p>
+        <p>An approachable platform where users can practice completing algorithms.</p>
         <p>Made with Javascript, React, Redux, Styled Components, Docker, Express, Postgres</p>
         <div class = 'buttonHolder'>
         <p><a href = "https://github.com/hophoparray/hop_hop_array">Github</a></p>

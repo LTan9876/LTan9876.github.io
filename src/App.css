@@ -107,7 +107,10 @@ div.cardHolder{
   flex-direction: row;
 }
 
-/* div.buttonHolder{
-  display: flex;
-  align-content: flex-end;
-} */
+h1.iconHolder{
+  display:flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+

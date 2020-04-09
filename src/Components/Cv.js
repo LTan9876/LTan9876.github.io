@@ -7,6 +7,7 @@ export default class Cv extends React.Component {
     return (
       <div>
         <iframe
+        title = 'Lily Tan Resume'
         src = {Pdf}
         width = "100%"
         height = "500px"
