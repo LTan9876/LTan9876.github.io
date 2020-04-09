@@ -1,13 +1,16 @@
 import React from 'react'
+import Pdf from '../resume.pdf'
 
 export default class Cv extends React.Component {
 
   render() {
     return (
       <div>
-        <h1>
-          testing12
-        </h1>
+        <iframe
+        src = {Pdf}
+        width = "100%"
+        height = "500px"
+        ></iframe>
       </div>
     )
   }
