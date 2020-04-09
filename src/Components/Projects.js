@@ -14,22 +14,26 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div>
-      <p style = {{cursor:'pointer'}} onClick = {() =>this.setState({graceShopper:true})}>
-        Made Tiny
-        {this.state.graceShopper?
-        <div><p>true</p></div>  :
-        <div></div>
-      }
-      </p>
-      <p style = {{cursor:'pointer'}} onClick = {() =>this.setState({capstone:true})}>
-        [Hop Hop Array]
-        {this.state.capstone?
-        <div><p>true</p></div>  :
-        <div></div>
-      }
-      </p>
+      <div class = 'cardHolder'>
+      <div class = 'card'>
+        <h1>[Hop Hop] Array</h1>
+        <p>An approachable platform where users can practice completing algorithms in Javascript.</p>
+        <p>Made with Javascript, React, Redux, Styled Components, Docker, Express, Postgres</p>
+        <div class = 'buttonHolder'>
+        <p><a href = "https://github.com/hophoparray/hop_hop_array">Github</a></p>
+      <p><a href = "https://www.hophoparray.com">Deployed Site</a></p>
       </div>
+      </div>
+      <div class = 'card'>
+      <h1>Made Tiny</h1>
+      <p>A mock e-commerce site used to sell tiny houses.</p>
+      <p>Made with Javascript, React, Redux, Express, Postgres</p>
+      <div class = 'buttonHolder'>
+      <p><a href = "https://github.com/1911-grace-shopper/grace-shopper">Github</a></p>
+      <p><a href = "https://madetiny.herokuapp.com">Deployed Site</a></p>
+      </div>
+    </div>
+    </div>
     )
   }
 }
