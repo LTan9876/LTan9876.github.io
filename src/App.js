@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
+import Navbar from "./Navbar";
+import Section from "./Section";
 import dummyText from "./DummyText";
 import Home from './Home'
-import About from './Components/About'
-import Projects from './Components/Projects'
-import Cv from './Components/Cv'
-import Contact from './Components/Contact'
+import About from './About'
+import Projects from './Projects'
+import Cv from './Cv'
+import Contact from './Contact'
 
 class App extends Component {
   render() {
