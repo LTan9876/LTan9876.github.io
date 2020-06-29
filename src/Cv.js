@@ -1,5 +1,5 @@
 import React from 'react'
-import Pdf from './resume.pdf'
+import Pdf from './updatedResume1.pdf'
 
 export default class Cv extends React.Component {
 
