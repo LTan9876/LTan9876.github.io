@@ -105,9 +105,10 @@ span.icon{
 }
 
 div.cardHolder{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
 }
 
 h1.iconHolder{
