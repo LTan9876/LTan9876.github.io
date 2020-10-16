@@ -21,7 +21,7 @@ export default class Projects extends React.Component {
         <p>Made with Javascript, React, Redux, Docker, Express, Postgres</p>
         <div class = 'buttonHolder'>
         <p><a href = "https://github.com/hophoparray/hop_hop_array">Github</a></p>
-      <p><a href = "https://www.hophoparray.com">Deployed Site</a></p>
+      <p><a href = "http://hophoparray.com/login">Deployed Site</a></p>
       </div>
       </div>
 
