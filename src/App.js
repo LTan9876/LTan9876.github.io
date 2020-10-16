@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Navbar";
 import Section from "./Section";
-import dummyText from "./DummyText";
 import Home from './Home'
 import About from './About'
 import Projects from './Projects'
